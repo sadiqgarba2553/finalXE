@@ -1,0 +1,12 @@
+[
+  {
+    "name": "SimpleHDA-Tahoe-v1.0.0-RELEASE.zip",
+    "url": "https://github.com/laobamac/SimpleHDA/releases/download/v1.0.0/SimpleHDA-Tahoe-v1.0.0-RELEASE.zip",
+    "sha256": "89198256664078c91155d673ee7cebb08134dad1b71d5e34b0aa4ef0d4877f8f"
+  },
+  {
+    "name": "AppleALC-1.9.8-RELEASE.zip",
+    "url": "https://github.com/acidanthera/AppleALC/releases/download/1.9.8/AppleALC-1.9.8-RELEASE.zip",
+    "sha256": "d4d36cd2da7863cf7cbfcb0892d45c08457f4f4ddd065a073dd010e46bd63bcb"
+  }
+]

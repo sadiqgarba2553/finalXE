@@ -1,0 +1,37 @@
+[
+  {
+    "path": "DSDT-HP-F08-Pass1-I2C.aml",
+    "enabled": true,
+    "sha256": "31129cca42de2976a70744cedf3a37eda96112bc6b617299c4862a66d00a450c"
+  },
+  {
+    "path": "SSDT-HP-EC-USBX.aml",
+    "enabled": true,
+    "sha256": "f9776cde3ce628dd614065d98d9b405390402754c5bdbed80a782f28a8c46ba6"
+  },
+  {
+    "path": "SSDT-HP-AWAC.aml",
+    "enabled": true,
+    "sha256": "7d722a4bddc1d5bce624c4941304e42fc2f9032d799172061f8f0ee1351558b9"
+  },
+  {
+    "path": "SSDT-PLUG-ALT.aml",
+    "enabled": true,
+    "sha256": "3370fec9a571492d70188034bb8c27de3516fa1b40b2cfff98bf9eef2b5ede94"
+  },
+  {
+    "path": "SSDT-XOSI.aml",
+    "enabled": true,
+    "sha256": "e1bfcd65ee233d46170083ae62bdd5da3564f91ae29d6e2263695b4d7195e9b6"
+  },
+  {
+    "path": "SSDT-I2C0-HP8BDF.aml",
+    "enabled": true,
+    "sha256": "10a515897b2f08cc981966aeb3f6bf0c89b41ac1fc144843c449337d724d419a"
+  },
+  {
+    "path": "SSDT-HP-PNLF.aml",
+    "enabled": true,
+    "sha256": "1826331ca3a4e4f2f5883e6ae9577db434d2faf5c3006b2bbf5fef0a84db4fea"
+  }
+]

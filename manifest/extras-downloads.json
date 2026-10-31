@@ -1,0 +1,23 @@
+[
+  {
+    "key": "bt",
+    "name": "IntelBluetooth-2.5.2-RELEASE.zip",
+    "url": "https://github.com/lshbluesky/IntelBluetoothFirmware/releases/download/v2.5.2/IntelBluetooth-2.5.2-RELEASE.zip",
+    "sha256": "c26140b2091e7b41aab5e5fbdd322112908efc509f9fde3d71d4e3f91396b991",
+    "downloadSHA256": "c26140b2091e7b41aab5e5fbdd322112908efc509f9fde3d71d4e3f91396b991"
+  },
+  {
+    "key": "brcm",
+    "name": "BrcmPatchRAM-2.7.2-RELEASE.zip",
+    "url": "https://github.com/acidanthera/BrcmPatchRAM/releases/download/2.7.2/BrcmPatchRAM-2.7.2-RELEASE.zip",
+    "sha256": "e1c1c55347526d031a8ae2fdd1f52efa3019161e497fb38e1cfa809752f8af21",
+    "downloadSHA256": "e1c1c55347526d031a8ae2fdd1f52efa3019161e497fb38e1cfa809752f8af21"
+  },
+  {
+    "key": "brightness",
+    "name": "BrightnessKeys-1.0.3-RELEASE.zip",
+    "url": "https://github.com/acidanthera/BrightnessKeys/releases/download/1.0.3/BrightnessKeys-1.0.3-RELEASE.zip",
+    "sha256": null,
+    "downloadSHA256": "c9a80f6275e39c18886087a70ba0fe615ce45f83b7afa254b74335f7a92b8544"
+  }
+]

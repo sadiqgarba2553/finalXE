@@ -1,0 +1,327 @@
+[
+  {
+    "bundle": "Lilu.kext",
+    "enabled": true,
+    "version": "1.7.3",
+    "identifier": "as.vit9696.Lilu",
+    "min_kernel": "",
+    "max_kernel": "",
+    "files": {
+      "Contents/Info.plist": "7b5ee421ad1c7ddaca953c63e853bbb3a57ede8081023cb0b10e23c7ab6fe502",
+      "Contents/MacOS/Lilu": "e3f00df5aca98c70363489292514f088ae3b667417c9c5afdd33799ff09390bd"
+    }
+  },
+  {
+    "bundle": "NootedGreenHP.kext",
+    "enabled": true,
+    "version": "1.0.13",
+    "identifier": "local.hp8bdf.NootedGreenHP",
+    "min_kernel": "25.0.0",
+    "max_kernel": "25.99.99",
+    "files": {
+      "Contents/Info.plist": "0b2d688427c09b5d73c93115788224b07bb18bceb9b884645f51daeedbd7ba83",
+      "Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/MacOS/NootedGreenHP": "a3fbf9022e4ad9851ab3c67593c9aaa4eb35c8c9e15c5f4518ddda7b9fdd4569"
+    }
+  },
+  {
+    "bundle": "AMFIPass.kext",
+    "enabled": false,
+    "version": "1.4.1",
+    "identifier": "com.dhinakg.AMFIPass",
+    "min_kernel": "25.0.0",
+    "max_kernel": "25.99.99",
+    "files": {
+      "Contents/Info.plist": "eb3fda04c0e8c8ce0ef4cfc984dcfb771db6aee476d379bd4bc3b7a74a00e4e9",
+      "Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/MacOS/AMFIPass": "2d36aeca1740b258e6bb0b66844b5bfb59a0edb7cdd9ef78206689e5d223d8dc"
+    }
+  },
+  {
+    "bundle": "WhateverXe.kext",
+    "enabled": false,
+    "version": "0.6.1",
+    "identifier": "org.b00t0x.WhateverXe",
+    "min_kernel": "25.0.0",
+    "max_kernel": "25.99.99",
+    "files": {
+      "Contents/Info.plist": "3f8b06f4979a82b3ecf8faa4f6002333ed70cecbf87a897a495373f3cf6d3057",
+      "Contents/MacOS/WhateverXe": "e92b65b0cce5964aacb0e7674a762fb8bd85dee5a931d15bd80b0edcafd1c39b"
+    }
+  },
+  {
+    "bundle": "NVMeFix.kext",
+    "enabled": true,
+    "version": "1.1.4",
+    "identifier": "org.acidanthera.NVMeFix",
+    "min_kernel": "18.0.0",
+    "max_kernel": "",
+    "files": {
+      "Contents/Info.plist": "7055cad05cc1223a0eaf108c6b659cf7a36c0178e8cfa3fdd188e30c30231595",
+      "Contents/MacOS/NVMeFix": "d32c743220011f162ac104cdf73b1bce71cca77459a54553e461b89b9837a4d6"
+    }
+  },
+  {
+    "bundle": "RestrictEvents.kext",
+    "enabled": true,
+    "version": "1.1.7",
+    "identifier": "as.vit9696.RestrictEvents",
+    "min_kernel": "",
+    "max_kernel": "",
+    "files": {
+      "Contents/Info.plist": "c5424fe26266985471096a20e169943f85425943058591c12f64023b950ec7c6",
+      "Contents/MacOS/RestrictEvents": "8a244c696234c4ae1dec7c318664c57b685f9d2501e8bb6649ec805b21e9fa3a"
+    }
+  },
+  {
+    "bundle": "VirtualSMC.kext",
+    "enabled": true,
+    "version": "1.3.9",
+    "identifier": "as.vit9696.VirtualSMC",
+    "min_kernel": "",
+    "max_kernel": "",
+    "files": {
+      "Contents/Info.plist": "7466b24490f2d7cfe980eb82e6ee8663d666064eceab767c7fdcd203b772b05e",
+      "Contents/MacOS/VirtualSMC": "bf91e9542b86c20acaf210353a93742291c49328e2d14b03fa0fa4fc52b3b5ce"
+    }
+  },
+  {
+    "bundle": "SMCBatteryManager.kext",
+    "enabled": true,
+    "version": "1.3.9",
+    "identifier": "ru.usrsse2.SMCBatteryManager",
+    "min_kernel": "",
+    "max_kernel": "",
+    "files": {
+      "Contents/Info.plist": "b64867ece5c245c63e5be0f7f697de802b0768f2d2bf800bddd942647d2dbc53",
+      "Contents/MacOS/SMCBatteryManager": "791d81018a5374ddc63b8d97ba976e03bab6d241fec08ec3487e4c4e74fc24e4",
+      "Contents/Resources/SSDT-BATC.dsl": "bc61dfb383caaac60e5456acb0a65c26b15767119b2f8ba119cab3fd4906bca7"
+    }
+  },
+  {
+    "bundle": "VoodooPS2Controller.kext",
+    "enabled": true,
+    "version": "2.3.8",
+    "identifier": "as.acidanthera.voodoo.driver.PS2Controller",
+    "min_kernel": "",
+    "max_kernel": "",
+    "files": {
+      "Contents/Info.plist": "7fd71985afc3d7b9b0a648fcf924473ebd7dfc1d72d8cf4b821e2c0218a73a8e",
+      "Contents/_CodeSignature/CodeResources": "111c0e74a1c3fcc855713f3a7b7d359a54f1220dbf72d05799223d83bf161dbe",
+      "Contents/MacOS/VoodooPS2Controller": "b1556921ff0b207a42dec3b0213841d655f107ed98e3657c4980aeffb37b3bcd",
+      "Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/Info.plist": "7167a42edc33b8cbf86729cc471091549a37ad9d44375cc28ecdc70fc2797750",
+      "Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/MacOS/VoodooPS2Trackpad": "1d879769f96329eae57facc4f63194673574a797c4a3ffdf2fd8568bbfae1cdc",
+      "Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/Info.plist": "513784dd1aba8dfc2c5f84e95529874aff8c5beab4771ba50f7fd0a3f4295fba",
+      "Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/MacOS/VoodooPS2Keyboard": "0b29772e903b47c81175b4c239fa6d2784cccc8aac3785ac6c89ef14738a3846",
+      "Contents/PlugIns/VoodooPS2Mouse.kext/Contents/Info.plist": "96f918cb02442ac4f9e610b3a3e73f669164d4b69a736d1b86745920031eef70",
+      "Contents/PlugIns/VoodooPS2Mouse.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/PlugIns/VoodooPS2Mouse.kext/Contents/MacOS/VoodooPS2Mouse": "aad1f294dcb42b359d734ea8562dd1a46019b76960af07b8b2c2595df511813d",
+      "Contents/PlugIns/VoodooInput.kext/Contents/Info.plist": "901221ce6e6ad9e7ccf5e1021c530517c0a7ff08b8f87e8cd142bf6bcbc0f7e2",
+      "Contents/PlugIns/VoodooInput.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/PlugIns/VoodooInput.kext/Contents/MacOS/VoodooInput": "52daa314d3f81bc74065461e6ea7cc2be38dbf8443ca87ddc5509ac97b8f7496"
+    }
+  },
+  {
+    "bundle": "VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext",
+    "enabled": true,
+    "version": "1.1.6",
+    "identifier": "me.kishorprins.VoodooInput",
+    "min_kernel": "",
+    "max_kernel": "",
+    "files": {
+      "Contents/Info.plist": "901221ce6e6ad9e7ccf5e1021c530517c0a7ff08b8f87e8cd142bf6bcbc0f7e2",
+      "Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/MacOS/VoodooInput": "52daa314d3f81bc74065461e6ea7cc2be38dbf8443ca87ddc5509ac97b8f7496"
+    }
+  },
+  {
+    "bundle": "VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext",
+    "enabled": true,
+    "version": "2.3.8",
+    "identifier": "as.acidanthera.voodoo.driver.PS2Keyboard",
+    "min_kernel": "",
+    "max_kernel": "",
+    "files": {
+      "Contents/Info.plist": "513784dd1aba8dfc2c5f84e95529874aff8c5beab4771ba50f7fd0a3f4295fba",
+      "Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/MacOS/VoodooPS2Keyboard": "0b29772e903b47c81175b4c239fa6d2784cccc8aac3785ac6c89ef14738a3846"
+    }
+  },
+  {
+    "bundle": "VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext",
+    "enabled": true,
+    "version": "1",
+    "identifier": "com.alexandred.VoodooI2CServices",
+    "min_kernel": "",
+    "max_kernel": "",
+    "files": {
+      "Contents/Info.plist": "daf80b4d70e86aff9416e692e789eac281b0362cf1d59b25096f00e66a048f49",
+      "Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/MacOS/VoodooI2CServices": "dfcbd60c6d01c79bf00395f5176d903957fe011398ccf5bb34ba5405e32823ba"
+    }
+  },
+  {
+    "bundle": "VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext",
+    "enabled": true,
+    "version": "1.1",
+    "identifier": "org.coolstar.VoodooGPIO",
+    "min_kernel": "",
+    "max_kernel": "",
+    "files": {
+      "Contents/Info.plist": "615266ac778762c44ec34d53fa282b6c0eec412afe78ea70f760ce34465a9cc3",
+      "Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/MacOS/VoodooGPIO": "02683501c88b15e32bee7c1aa79452242df96f845d59f6a23f79c473b12d184e"
+    }
+  },
+  {
+    "bundle": "VoodooI2C.kext",
+    "enabled": true,
+    "version": "2.9.1",
+    "identifier": "com.alexandred.VoodooI2C",
+    "min_kernel": "",
+    "max_kernel": "",
+    "files": {
+      "Contents/Info.plist": "f039c0a552556b3cd142c22f6e1bba8768f274e56ad7abfe4351ca87e91bf789",
+      "Contents/_CodeSignature/CodeResources": "eafc21abc1798ba66c4eb3cd816ed0adec13dfd65bdf195a3fc44126b8e0b59e",
+      "Contents/MacOS/VoodooI2C": "978efe8ad0d1ff69e670ec61fd7212058f793bba0b38d099509e5389f48a7bf6",
+      "Contents/PlugIns/VoodooGPIO.kext/Contents/Info.plist": "615266ac778762c44ec34d53fa282b6c0eec412afe78ea70f760ce34465a9cc3",
+      "Contents/PlugIns/VoodooGPIO.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/PlugIns/VoodooGPIO.kext/Contents/MacOS/VoodooGPIO": "02683501c88b15e32bee7c1aa79452242df96f845d59f6a23f79c473b12d184e",
+      "Contents/PlugIns/VoodooI2CServices.kext/Contents/Info.plist": "daf80b4d70e86aff9416e692e789eac281b0362cf1d59b25096f00e66a048f49",
+      "Contents/PlugIns/VoodooI2CServices.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/PlugIns/VoodooI2CServices.kext/Contents/MacOS/VoodooI2CServices": "dfcbd60c6d01c79bf00395f5176d903957fe011398ccf5bb34ba5405e32823ba",
+      "Contents/PlugIns/VoodooInput.kext/Contents/Info.plist": "80df468bd61b97f0279fc773e48b7e1b7a7da8ac2805bf33278253953125030c",
+      "Contents/PlugIns/VoodooInput.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/PlugIns/VoodooInput.kext/Contents/MacOS/VoodooInput": "163b5119fbcea2dc34a951ff82a53e6de2cc83b0255c48759864597f0773ac68"
+    }
+  },
+  {
+    "bundle": "VoodooI2CHID.kext",
+    "enabled": true,
+    "version": "1",
+    "identifier": "com.alexandred.VoodooI2CHID",
+    "min_kernel": "",
+    "max_kernel": "",
+    "files": {
+      "Contents/Info.plist": "76c6796d058d5686938eb25810504da6a0cf44ce74a08c4199602c74c72f1b5f",
+      "Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/MacOS/VoodooI2CHID": "540f8ccf33fb559d4e4107d09c3dcc5e1e58b5b3f05d6a6364a1bc9e1d098a16"
+    }
+  },
+  {
+    "bundle": "itlwm.kext",
+    "enabled": false,
+    "version": "2.3.0",
+    "identifier": "com.zxystd.itlwm",
+    "min_kernel": "",
+    "max_kernel": "",
+    "files": {
+      "Contents/Info.plist": "521a7a0ebb324f2a25c619d297faeb9b31f89cfdebac5d113ba9b7ce54e9ec17",
+      "Contents/MacOS/itlwm": "e4fd02a6ef73aa23c523f49fe340bb67e0e38f69edb4e2bf91d9c56ec1ccb5bc"
+    }
+  },
+  {
+    "bundle": "BlueToolFixup.kext",
+    "enabled": true,
+    "version": "2.7.2",
+    "identifier": "as.acidanthera.BlueToolFixup",
+    "min_kernel": "25.6.0",
+    "max_kernel": "25.99.99",
+    "files": {
+      "Contents/Info.plist": "a0fcdb909add9c5201f1b188f0a8a70ded80a29f29b9b8a74960cc2aff8ed85a",
+      "Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/MacOS/BlueToolFixup": "f9dbbe2b168f207c376c7b7c07dbf60e7dda8b44c2343ae755df550e40b95acc"
+    }
+  },
+  {
+    "bundle": "IntelBTPatcher.kext",
+    "enabled": true,
+    "version": "2.5.2",
+    "identifier": "com.zxystd.IntelBTPatcher",
+    "min_kernel": "25.6.0",
+    "max_kernel": "25.99.99",
+    "files": {
+      "Contents/Info.plist": "07a14842346fa48c57ae39cd5565532222b1c94925abcb9e82b0906b272d6325",
+      "Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/MacOS/IntelBTPatcher": "79fae7173d6a6d8f4c5edf1cbe192bd6381732013ee42b56850a32030382af64"
+    }
+  },
+  {
+    "bundle": "IntelBluetoothFirmware.kext",
+    "enabled": true,
+    "version": "2.5.2",
+    "identifier": "com.zxystd.IntelBluetoothFirmware",
+    "min_kernel": "25.6.0",
+    "max_kernel": "25.99.99",
+    "files": {
+      "Contents/Info.plist": "d75447d4d1d2d2f5db0026bd9795d0fc3393b228e9ab09c67cbbbc0946e9c613",
+      "Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/MacOS/IntelBluetoothFirmware": "bc8cc41742519751b1b890f046ea5ed1c004fa2d4bb2f3d7b1b1be619c541d04"
+    }
+  },
+  {
+    "bundle": "BrightnessKeys.kext",
+    "enabled": true,
+    "version": "1.0.3",
+    "identifier": "as.acidanthera.BrightnessKeys",
+    "min_kernel": "25.6.0",
+    "max_kernel": "25.99.99",
+    "files": {
+      "Contents/Info.plist": "7694452f5a7c152a4e811fc192d156a3b0b011e51190c90b1ef2421ccecfb76f",
+      "Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/MacOS/BrightnessKeys": "6f4da9b2df8f6d23d502b6c294fe944d16234e9e01eb7088192da92b9be4c9b7"
+    }
+  },
+  {
+    "bundle": "AirportItlwmHP.kext",
+    "enabled": true,
+    "version": "0.1.4",
+    "identifier": "local.hp8bdf.AirportItlwm",
+    "min_kernel": "25.6.0",
+    "max_kernel": "25.6.0",
+    "files": {
+      "Contents/Info.plist": "855d45d889689113662d209394813818eafacbe128c6b49866f1c55fe9f54857",
+      "Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/MacOS/AirportItlwmHP": "a496176d9c2ca5c959a9dcac4022b560c4235f3de31442b2b013c13bc79f9537"
+    }
+  },
+  {
+    "bundle": "USBMapHP8BDF.kext",
+    "enabled": true,
+    "version": "1.0.1",
+    "identifier": "local.hp8bdf.USBMap",
+    "min_kernel": "25.6.0",
+    "max_kernel": "25.6.99",
+    "files": {
+      "Contents/Info.plist": "93a0ba75cd2c5d198eee5b7248f7ef5aa234b8b32dd0db248033eff42a4739dc"
+    }
+  },
+  {
+    "bundle": "AppleALC.kext",
+    "enabled": true,
+    "version": "1.9.8",
+    "identifier": "as.vit9696.AppleALC",
+    "min_kernel": "25.6.0",
+    "max_kernel": "25.6.99",
+    "files": {
+      "Contents/Info.plist": "55a7b8ff8868f7eba08acda3d7926a28f0a797780fdd73b0e155f157e122b185",
+      "Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/MacOS/AppleALC": "5916bc28ba7f0aa15490522308ce17cb74f6bd03ee4062e95741ddf11946855f"
+    }
+  },
+  {
+    "bundle": "SimpleHDA.kext",
+    "enabled": true,
+    "version": "1.0.0",
+    "identifier": "cn.laobamac.SimpleHDA",
+    "min_kernel": "25.6.0",
+    "max_kernel": "25.6.99",
+    "files": {
+      "Contents/Info.plist": "b9916b1919a73858de2940c5bb8f39951e92e3c1fb64d84c8cac69dd36c10f92",
+      "Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+      "Contents/MacOS/SimpleHDA": "e4e8d1a70fe96066e0bf5d3952139d86cae6fe94bfe2029f05a7cc2958b5d769"
+    }
+  }
+]

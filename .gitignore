@@ -1,0 +1,13 @@
+/.git/
+.DS_Store
+__pycache__/
+*.pyc
+**/deps/
+**/build/
+**/build-*/
+/private/
+/local-backup/
+*.zip
+*.kc
+*.dmg
+*.efivar
