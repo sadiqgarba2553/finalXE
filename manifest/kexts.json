@@ -14,14 +14,14 @@
   {
     "bundle": "NootedGreenHP.kext",
     "enabled": true,
-    "version": "1.0.13",
+    "version": "1.0.14",
     "identifier": "local.hp8bdf.NootedGreenHP",
     "min_kernel": "25.0.0",
     "max_kernel": "25.99.99",
     "files": {
-      "Contents/Info.plist": "0b2d688427c09b5d73c93115788224b07bb18bceb9b884645f51daeedbd7ba83",
+      "Contents/Info.plist": "2930543874a057ecd0adf13f14651341aa4e5093f8d55b83a02cb5b98f05d131",
       "Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
-      "Contents/MacOS/NootedGreenHP": "a3fbf9022e4ad9851ab3c67593c9aaa4eb35c8c9e15c5f4518ddda7b9fdd4569"
+      "Contents/MacOS/NootedGreenHP": "53ad5521fe04272c668481d2da22daaf3ad59c87fe36a7c4c5f93542788baaec"
     }
   },
   {

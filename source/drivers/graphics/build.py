@@ -16,14 +16,14 @@ SRC = REPO/'src/NootedGreen'
 SDK = REPO/'build/deps/MacKernelSDK'
 LILU = REPO/'build/deps/Lilu.kext/Contents/Resources'
 parser = argparse.ArgumentParser(description=__doc__)
-parser.add_argument('--output', default='build-v1.0.13')
+parser.add_argument('--output', default='build-v1.0.14')
 args = parser.parse_args()
 BUILD = ROOT/args.output
 OBJ = BUILD/'objects'
 KEXT = BUILD/'NootedGreenHP.kext'
 NAME = 'NootedGreenHP'
 BID = 'local.hp8bdf.NootedGreenHP'
-VER = '1.0.13'
+VER = '1.0.14'
 UNITS = ['DisplayMergeNub','DYLDPatches','Firmware','FirmwareADLP','HDMI',
          'IntelDPLinkTraining','kern_gen11','kern_genx','kern_green','kern_patcherplus','kern_start']
 OBJ.mkdir(parents=True,exist_ok=True)

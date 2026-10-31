@@ -36,7 +36,7 @@ python3 tools/prepare-build.py --local-cache /path/to/hp-macos-postinstall
 
 Outputs:
 
-- `drivers/graphics/build-v1.0.12/NootedGreenHP.kext`
+- `drivers/graphics/build-v1.0.14/NootedGreenHP.kext`
 - `drivers/wifi/build/AirportItlwmHP.kext`
 - `drivers/battery/build/HPBAT1Bridge.kext`
 

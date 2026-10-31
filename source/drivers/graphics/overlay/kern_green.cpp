@@ -164,6 +164,9 @@ void NGreen::init() {
     }
 	
 	lilu.onKextLoadForce(&kextAGDP);
+    // finalXE HP brightness trial: opt-in existing upstream panel hook.
+    if (checkKernelArgument("-ngreenhpbacklight"))
+        lilu.onKextLoadForce(&kextBacklight);
 	/*lilu.onKextLoadForce(&kextBacklight);
 	lilu.onKextLoadForce(&kextMCCSControl);
 	lilu.onKextLoadForce(&kextIOGraphics);*/

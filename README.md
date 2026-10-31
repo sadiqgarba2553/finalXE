@@ -13,18 +13,18 @@ to make another machine load the driver.
 
 | Component | Status |
 | --- | --- |
-| Graphics / Metal | Experimental NootedGreenHP 1.0.13 + matching system runtime; Metal clients observed, earlier bounded render/compute checks; no universal performance claim |
+| Graphics / Metal | Experimental NootedGreenHP 1.0.14 + matching system runtime; Metal clients observed, earlier bounded render/compute checks; no universal performance claim |
 | Sound | User reports sound works after HP-FIX boot; ALC245 codec (10EC:0245) and built-in output observed; speaker/headphone/microphone coverage not individually qualified |
 | Native Intel AX211 Wi-Fi | Working baseline uses AirportItlwmHP 0.1.4 |
 | Keyboard / trackpad / battery | Existing baseline configuration included; comprehensive testing pending |
-| Brightness | Not working in HP-FIX; separate HP-BRIGHT 1.0.14 trial is built but awaits boot testing |
+| Brightness | Working on the original HP after HP-BRIGHT 1.0.14 boot; user confirmed 2026-10-31; panel brightness properties observed |
 | Bluetooth / USB map | Drivers and board-specific USB map configured; pairing and every port not yet qualified |
 | Sleep / wake | Unresolved; do not assume reliable system sleep |
 | 3 GB graphics memory | No 3 GB reservation or cosmetic VRAM change applied; integrated GPU shares RAM |
 
 ## What is included
 
-- Sanitized exact HP-FIX and separate brightness-trial OpenCore configs.
+- Sanitized exact HP-FIX and separate HP-BRIGHT OpenCore configs.
 - Driver versions, enabled order, kernel limits and SHA-256 inventories.
 - Corresponding HP graphics, native Wi-Fi and other project source, pinned build
   dependencies, retained upstream licenses and build tools under `source/`.
@@ -55,7 +55,7 @@ make a complete sanitized backup with the exporter below.
 For an existing installation matching this snapshot:
 
 ```sh
-python3 tools/export-local.py --profile /Volumes/MACOS_BOOT/EFI/HP-FIX --destination /path/to/local-backup
+python3 tools/export-local.py --profile /Volumes/MACOS_BOOT/EFI/HP-BRIGHT --destination /path/to/local-backup
 python3 tools/verify.py /path/to/local-backup
 ```
 
@@ -71,3 +71,16 @@ See [LICENSE](LICENSE), [component notices](THIRD_PARTY_NOTICES.md) and
 [source provenance](source/licenses/README.md). The graphics license includes
 noncommercial restrictions. This project offers no paid graphics downloads,
 support or services. Apple/Intel/HP names identify hardware and software only.
+
+## Brightness update — 2026-10-31
+
+The owner confirmed physical brightness adjustment works after booting HP-BRIGHT.
+The live display now exposes brightness and linear-brightness controls, which
+were missing in HP-FIX. NootedGreenHP 1.0.14 opts into the existing upstream
+AppleIntelPanel hook with `-ngreenhpbacklight`. PNLF and BrightnessKeys remain
+configured. This confirms brightness on this machine; key combinations, full
+panel range and sleep/wake have not been separately qualified.
+
+`source/` now contains the 1.0.14 source; the profile remains at
+`profiles/hp-bright-trial/` to preserve existing links. HP-FIX is retained as
+the previous fallback. See [brightness verification](docs/BRIGHTNESS.md).
